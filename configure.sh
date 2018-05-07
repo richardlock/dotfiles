@@ -14,8 +14,13 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 # zsh-autosuggestions install
 echo "Installing zsh-autosuggestions plugin..."
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
 
 # powerlevel9k install
 echo "Installing powerlevel9k..."
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+
+# dotfiles
+echo "Installing dotfiles..."
+git clone -b wsl https://github.com/richardlock/dotfiles.git ~/.dotfiles
+~/.dotfiles/install

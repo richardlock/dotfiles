@@ -3,7 +3,6 @@
 - link:
     ~/.bashrc: bashrc
     ~/.bash_logout: bash_logout
-    ~/.oh-my-zsh: oh-my-zsh
     ~/.profile: profile
     ~/.zshrc: zshrc
 

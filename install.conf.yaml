@@ -1,7 +1,0 @@
-- clean: ['~']
-
-- link:
-    ~/.bashrc: bashrc
-    ~/.bash_logout: bash_logout
-    ~/.profile: profile
-    ~/.zshrc: zshrc

@@ -75,6 +75,7 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status history)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  ssh-agent
   zsh-autosuggestions
 )
 

@@ -3,14 +3,15 @@ Based on:
 https://github.com/jldeen/dotfiles/tree/wsl
 https://github.com/anishathalye/dotfiles
 
-### WSL Configuration / Install
-Run the following to configure WSL...
+### WSL installation
+Run the following from an administrative PowerShell prompt to install and configure Ubuntu on WSL.
+A reboot is required to enable WSL, and then the script should be run again.
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/richardlock/dotfiles/wsl/configure.sh)"
+Set-ExecutionPolicy Bypass -Scope Process -Force; Invoke-Expression ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/richardlock/dotfiles/wsl/scripts/Install-WSL.ps1'))
 ```
 
-### Dotfiles Configuration / Install
-Run the following to configure dotfiles only...
+### Dotfiles installation
+Run the following to install and configure dotfiles only...
 ```
 git clone -b wsl https://github.com/richardlock/dotfiles.git ~/.dotfiles
 ~/.dotfiles/install

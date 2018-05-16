@@ -5,11 +5,11 @@ echo "$(whoami) ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/$(whoami)
 
 # Update package lists
 echo "Updating package lists..."
-sudo apt update
+sudo apt update -y
 
 # Upgrade packages
 echo "Upgrading packages..."
-sudo apt upgrade
+sudo apt upgrade -y
 
 # Install zsh
 echo "Installing zsh..."

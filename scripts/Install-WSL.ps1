@@ -16,8 +16,8 @@ If (!(Test-Path -Path ~\Ubuntu)) {
 # Install Ubuntu
 Start-Process -FilePath ~\Ubuntu\ubuntu.exe -Wait
 
-# Download dotfiles
-Start-Process -FilePath wsl -ArgumentList 'git clone -b wsl https://github.com/richardlock/dotfiles.git ~/.dotfiles' -Wait
+# Install dotfiles
+Start-Process -FilePath wsl -ArgumentList 'git clone -b wsl https://github.com/richardlock/dotfiles.git ~/.dotfiles && ~/.dotfiles/install' -Wait
 
 # Run configure script
 Start-Process -FilePath wsl -ArgumentList 'bash ~/.dotfiles/scripts/configure.sh' -Wait

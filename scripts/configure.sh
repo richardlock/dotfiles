@@ -26,7 +26,3 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/p
 # Download powerlevel9k theme
 echo "Installing powerlevel9k theme..."
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
-
-# Install dotfiles
-echo "Installing dotfiles..."
-~/.dotfiles/install

@@ -17,4 +17,4 @@ If (!(Test-Path -Path ~\Ubuntu)) {
 Start-Process -FilePath ~\Ubuntu\ubuntu.exe -Wait
 
 # Run configure script
-Start-Process -FilePath wsl -ArgumentList 'bash ~/.dotfiles/scripts/configure.sh' -Wait
+Start-Process -FilePath wsl -ArgumentList 'sh -c "$(curl -fsSL https://raw.githubusercontent.com/richardlock/dotfiles/wsl/scripts/configure.sh)"' -Wait

@@ -6,7 +6,7 @@ https://github.com/anishathalye/dotfiles
 ### WSL Configuration / Install
 Run the following to configure WSL...
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/richardlock/dotfiles/wsl/configure.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/richardlock/dotfiles/wsl/configure.sh)"
 ```
 
 ### Dotfiles Configuration / Install

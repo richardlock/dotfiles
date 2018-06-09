@@ -11,12 +11,12 @@ sudo apt update -y
 echo "Installing zsh..."
 sudo apt install zsh -f -y
 
-# Install oh-my-zsh
-echo "Installing oh-my-zsh..."
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-
 # Set umask to prevent cloned repositories from having insecure permissions
 umask g-w,o-w
+
+# Install oh-my-zsh
+echo "Installing oh-my-zsh..."
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh | sed 's:env zsh::g' | sed 's:chsh -s .*$::g')"
 
 # Download zsh-autosuggestions plugin
 echo "Installing zsh-autosuggestions plugin..."

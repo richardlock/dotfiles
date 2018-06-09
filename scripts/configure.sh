@@ -29,6 +29,9 @@ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/theme
 # Install dotfiles
 git clone -b wsl https://github.com/richardlock/dotfiles.git ~/.dotfiles && ~/.dotfiles/install
 
+# Copy wsl.conf to /etc
+sudo cp ~/.dotfiles/etc/wsl.conf /etc/wsl.conf
+
 # Upgrade packages
 echo "Upgrading packages..."
 sudo apt upgrade -y

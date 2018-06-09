@@ -9,4 +9,3 @@
     ~/.bash_logout: bash/bash_logout
     ~/.profile: profile/profile
     ~/.zshrc: zsh/zshrc
-    /etc/wsl.conf: etc/wsl.conf

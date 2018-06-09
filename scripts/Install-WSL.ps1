@@ -13,7 +13,7 @@ If (!(Test-Path -Path ~\Ubuntu)) {
   Expand-Archive ~\Ubuntu.zip ~\Ubuntu
 }
 
-# Install Ubuntu
+# Initialise Ubuntu
 Start-Process -FilePath ~\Ubuntu\ubuntu.exe -Wait
 
 # Run configure script

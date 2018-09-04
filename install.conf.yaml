@@ -9,3 +9,4 @@
     ~/.bash_logout: bash/bash_logout
     ~/.profile: profile/profile
     ~/.zshrc: zsh/zshrc
+    ~/.oh-my-zsh/custom/themes/robbyrussell.zsh-theme: oh-my-zsh/custom/themes/robbyrussell.zsh-theme

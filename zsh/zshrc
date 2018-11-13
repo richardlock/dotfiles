@@ -97,3 +97,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Configure WSL to connect to Docker for Windows
 export DOCKER_HOST=tcp://0.0.0.0:2375
+
+# Set umask until https://github.com/Microsoft/WSL/issues/352 is fixed
+umask 022

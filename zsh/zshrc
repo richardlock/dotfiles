@@ -96,7 +96,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Configure WSL to connect to Docker for Windows
-export DOCKER_HOST=tcp://0.0.0.0:2375
+# Not needed with WSL2
+# export DOCKER_HOST=tcp://0.0.0.0:2375
 
 # Configure Vagrant to work with WSL (https://www.vagrantup.com/docs/other/wsl.html)
 export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS=1

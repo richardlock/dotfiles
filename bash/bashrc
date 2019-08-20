@@ -117,4 +117,5 @@ if ! shopt -oq posix; then
 fi
 
 # Configure WSL to connect to Docker for Windows
-export DOCKER_HOST=tcp://0.0.0.0:2375
+# Not needed for WSL2
+# export DOCKER_HOST=tcp://0.0.0.0:2375

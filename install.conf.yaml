@@ -5,9 +5,10 @@
 - clean: ['~']
 
 - link:
-    ~/.ansible.cfg: ansible/ansible.cfg
-    ~/.bashrc: bash/bashrc
-    ~/.bash_logout: bash/bash_logout
+    ~/.ansible.cfg: ansible/.ansible.cfg
+    ~/.bashrc: bash/.bashrc
+    ~/.bash_logout: bash/.bash_logout
     ~/.oh-my-zsh/custom/themes/robbyrussell.zsh-theme: oh-my-zsh/custom/themes/robbyrussell.zsh-theme
-    ~/.profile: profile/profile
-    ~/.zshrc: zsh/zshrc
+    ~/.profile: profile/.profile
+    ~/.tmux.conf: tmux/.tmux.conf
+    ~/.zshrc: zsh/.zshrc

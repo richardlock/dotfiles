@@ -61,7 +61,6 @@ ZSH_THEME="robbyrussell"
 plugins=(
   git
   ssh-agent
-  tmux
   zsh-autosuggestions
 )
 
@@ -98,11 +97,11 @@ source $ZSH/oh-my-zsh.sh
 
 # Configure WSL to connect to Docker for Windows
 # Not needed with WSL2
-export DOCKER_HOST=tcp://0.0.0.0:2375
+# export DOCKER_HOST=tcp://0.0.0.0:2375
 
 # Configure Vagrant to work with WSL (https://www.vagrantup.com/docs/other/wsl.html)
 export VAGRANT_WSL_ENABLE_WINDOWS_ACCESS=1
 export VAGRANT_DEFAULT_PROVIDER=hyperv
 
 # Set umask until https://github.com/Microsoft/WSL/issues/352 is fixed
-umask 022
+# umask 022

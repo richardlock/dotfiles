@@ -115,7 +115,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# Configure WSL to connect to Docker for Windows
-# Not needed for WSL2
-# export DOCKER_HOST=tcp://0.0.0.0:2375
